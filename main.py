@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from keras.models import load_model
-from tensorflow.keras.utils import img_to_array
+from tensorflow.keras.filters import img_to_array
 cap = cv2.VideoCapture(0)
 model = load_model('explo_model.h5')
 bg=None
